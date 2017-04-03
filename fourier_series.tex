@@ -1,0 +1,133 @@
+\documentclass[11pt]{article}
+% decent example of doing mathematics and proofs in LaTeX.
+% An Incredible degree of information can be found at
+% http://en.wikibooks.org/wiki/LaTeX/Mathematics
+
+% Use wide margins, but not quite so wide as fullpage.sty
+\marginparwidth 0.5in
+\oddsidemargin 0.25in
+\evensidemargin 0.25in
+\marginparsep 0.25in
+\topmargin 0.25in
+\textwidth 6in \textheight 8 in
+% That's about enough definitions
+
+\usepackage{amsmath}
+\usepackage{upgreek}
+\usepackage{polski}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\begin{document}
+\author{Henryk Nowakowski}
+\title{Szeregi Fouriera}
+\maketitle
+
+
+%TODO sprawdzić 1. raz
+
+
+\begin{enumerate}
+
+\item % Problem 1:
+
+Ogólna postać:
+
+
+\begin{align*}
+f(x) \approx / = \frac{a_{0}}{2}+\sum_{n=1}^{\infty} a_{n}\cos(nx) + b_{n}\sin(nx))\\ \\
+a_{n}= \frac{1}{\pi}\int_{-\pi}^{\pi} f(x) \cos(nx) dx,\quad n=0,1,2,3,... \\
+\\ b_{n}= \frac{1}{\pi}\int_{-\pi}^{\pi} f(x) \sin(nx) dx, \quad n=1,2,3,... \\
+Uwaga! \quad a_{0} = \frac{1}{\pi} \int_{-\pi}^{\pi} f(x) dx
+\end{align*}
+
+
+\line(1,0){250}
+
+ For a function $f(x)$ periodic on an interval $[-L,L]$ instead of  $[-\pi,\pi]$, a simple change of variables can be used to transform the interval of integration from $[-\pi,\pi]$ to $[-L,L]$.
+
+\begin{align*}
+\\  \\
+a_{n}= \frac{1}{L}\int_{-L}^{L} f(x) \cos(\frac{n\pi}{L}) dx,\quad
+n=0,1,2,3,... \\ \\ b_{n}= \frac{1}{L}\int_{-L}^{L} f(x) \sin(\frac{n\pi x}{L}) dx,\quad
+n=0,1,2,3,... \\
+f(x) \approx / = \frac{a_{0}}{2}+\sum_{n=1}^{\infty} a_{n}\cos(\frac{n \pi x}{L}) + b_{n}\sin(\frac{n \pi x}{L})
+\end{align*}
+
+
+\item % Problem 2
+Rozwinięcie w szereg sinusów:
+
+\begin{align*}
+    f(x) \approx \sum_{n=1}^{\infty} b_{n} \sin(nx) \\ \\
+    b_{n} = \frac{2}{\pi} \int_{0}^{\pi} f(x)\sin(nx) dx
+\end{align*}
+
+Letting the range go to $L$,
+
+\begin{align*}
+    b_{n} = \frac{2}{L} \int_{0}^{L} f(x) \sin (\frac{n \pi x}{L}) dx
+\end{align*}
+
+
+Rozwinięcie w szereg cosinusów:
+
+\begin{align*}
+    f(x) \approx \frac{a_{0}}{2} \sum_{n=1}^{\infty} a_{n} \cos(nx) \\ \\
+    a_{n} = \frac{2}{\pi} \int_{0}^{\pi} f(x)\cos(nx) dx \\ \\
+    a_{0} = \frac{1}{\pi} \int_{-\pi}^{\pi} f(x) dx
+\end{align*}
+
+Letting the range go to $L$,
+
+\begin{align*}
+    a_{0} = \frac{2}{L} \int_{0}^{L} f(x) dx \\\\
+    a_{n} = \frac{2}{L} \int_{0}^{L} f(x) \cos(\frac{n \pi x}{L})dx
+\end{align*}
+
+Przydatne wzorki:
+
+\begin{align*}
+    \cos\alpha \cos\beta = \frac{\cos(\alpha + \beta)+\cos(\alpha - \beta)}{2} \\ \\
+    \sin\alpha \cos\beta = \frac{\sin(\alpha + \beta)+\sin(\alpha - \beta)}{2} \\\\
+    \sin\alpha \sin\beta = \frac{\cos(\alpha - \beta)+\cos(\alpha + \beta)}{2} \\\\\\
+\end{align*}
+
+
+
+
+
+Wzorki do rozwijania w szereg Fouriera zespolony:
+
+\begin{align*}
+     e^{ix}=\cos x + i\sin x => \\\\
+     \cos x = \frac{e^{ix} + e^{-ix}}{2}\\\\
+     \sin x = \frac{e^{ix} - e^{-ix}}{-i2}\\\\
+\end{align*}
+
+Zespolony szereg Fouriera:
+
+\begin{align*}
+     f(x) \approx \sum_{-\infty}^{\infty} c_{n}e^{inx} \\\\
+     c_{n} = \frac{1}{2 \pi} \int_{-\pi}^{\pi} f(x) e^{-inx}dx
+\end{align*}
+
+
+For a function periodic in $[\frac{-L}{2},\frac{L}{2}]$, these become
+
+\begin{align*}
+    f(x) = \sum_{x= -\infty}^{\infty} A_{n}e^{(2 \pi n x)/L}
+    A_{n} = \frac{1}{L}\int_{-L/2}^{L/2} f(x) e^{-i(2 \pi n x)/L}
+\end{align*}
+
+
+Żródła:\\
+\url{http://mathworld.wolfram.com/FourierSeries.html}\\
+\url{http://mathworld.wolfram.com/FourierSineSeries.html}\\
+\url{http://mathworld.wolfram.com/FourierCosineSeries.html}
+
+
+
+
+\end{enumerate}
+\end{document}

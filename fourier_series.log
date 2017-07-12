@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.5)  12 JUL 2017 15:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.5)  12 JUL 2017 15:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -434,21 +434,25 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
 )
+(/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
 (./fourier_series.aux)
 \openout1 = `fourier_series.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -512,150 +516,33 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Runaway argument?
- f(x) \approx / = \frac {a_{0}}{2}+\sum _{n=1}^{\infty } a_{n}\cos (n\ETC.
-! Paragraph ended before \align* was complete.
-<to be read again> 
-                   \par 
-l.39 
-     
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.39 
-     
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.39 
-     
-? 
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.39 
-     
-? 
-! Display math should end with $$.
-<to be read again> 
-                   \@@par 
-l.39 
-     
-? 
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.39 
-     
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.42 a_
-       {n}= \frac{1}{\pi}\int_{-\pi}^{\pi} f(x) \cos(nx) dx,\quad n=0,1,2,3,...
-
-? 
-! Misplaced \cr.
-\math@cr@@@ ->\cr 
-                  
-l.45 \end{align*}
-                 
-? 
-! Misplaced \noalign.
-\math@cr@@ ... \iffalse }\fi \math@cr@@@ \noalign 
-                                                  {\vskip #1\relax }
-l.45 \end{align*}
-                 
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.45 \end{align*}
-                 
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.45 \end{align*}
-                 
-? 
-! Extra }, or forgotten \endgroup.
-\math@cr@@ ...th@cr@@@ \noalign {\vskip #1\relax }
-                                                  
-l.45 \end{align*}
-                 
-? 
-! Misplaced \noalign.
-\black@ #1->\noalign 
-                     {\ifdim #1>\displaywidth \dimen@ \prevdepth \nointerlin...
-l.45 \end{align*}
-                 
-? 
-! Extra }, or forgotten \endgroup.
-\endalign ->\math@cr \black@ \totwidth@ \egroup 
-                                                \ifingather@ \restorealignst...
-l.45 \end{align*}
-                 
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.45 \end{align*}
-                 
-? 
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.45 \end{align*}
-                 
-? 
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2]
-! Undefined control sequence.
-<recently read> \url 
-                     
-l.130 \url
-          {http://mathworld.wolfram.com/FourierSeries.html}\\
-? 
-! Undefined control sequence.
-<recently read> \url 
-                     
-l.131 \url
-          {http://mathworld.wolfram.com/FourierSineSeries.html}\\
-? 
-! Undefined control sequence.
-<recently read> \url 
-                     
-l.132 \url
-          {http://mathworld.wolfram.com/FourierCosineSeries.html}
-? 
-[3] [4] (./fourier_series.aux) ) 
+[2] [3] [4] [5] (./fourier_series.aux) ) 
 Here is how much of TeX's memory you used:
- 2410 strings out of 492995
- 31288 string characters out of 6132705
- 100123 words of memory out of 5000000
- 5938 multiletter control sequences out of 15000+600000
- 8489 words of font info for 31 fonts, out of 8000000 for 9000
+ 2484 strings out of 492995
+ 32206 string characters out of 6132705
+ 99218 words of memory out of 5000000
+ 6007 multiletter control sequences out of 15000+600000
+ 8657 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,9n,25p,240b,482s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy8.pfb>
-Output written on fourier_series.pdf (4 pages, 92147 bytes).
+ 39i,9n,25p,242b,482s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2017/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmtt10.pfb>
+Output written on fourier_series.pdf (5 pages, 103866 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+ 60 PDF objects out of 1000 (max. 8388607)
+ 42 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

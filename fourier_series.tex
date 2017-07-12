@@ -20,7 +20,7 @@
 
 \begin{document}
 \author{Henryk Nowakowski}
-\title{Szeregi Fouriera}
+\title{Fourier Series}
 \maketitle
 
 
@@ -31,11 +31,14 @@
 
 \item % Problem 1:
 
-Ogólna postać:
+	The Fourier series of a function $f(x)$ is given by 
 
 
 \begin{align*}
 f(x) \approx / = \frac{a_{0}}{2}+\sum_{n=1}^{\infty} a_{n}\cos(nx) + b_{n}\sin(nx))\\ \\
+
+where: 
+
 a_{n}= \frac{1}{\pi}\int_{-\pi}^{\pi} f(x) \cos(nx) dx,\quad n=0,1,2,3,... \\
 \\ b_{n}= \frac{1}{\pi}\int_{-\pi}^{\pi} f(x) \sin(nx) dx, \quad n=1,2,3,... \\
 Uwaga! \quad a_{0} = \frac{1}{\pi} \int_{-\pi}^{\pi} f(x) dx
@@ -56,7 +59,9 @@ f(x) \approx / = \frac{a_{0}}{2}+\sum_{n=1}^{\infty} a_{n}\cos(\frac{n \pi x}{L}
 
 
 \item % Problem 2
-Rozwinięcie w szereg sinusów:
+
+
+	Sine series:
 
 \begin{align*}
     f(x) \approx \sum_{n=1}^{\infty} b_{n} \sin(nx) \\ \\
@@ -70,7 +75,7 @@ Letting the range go to $L$,
 \end{align*}
 
 
-Rozwinięcie w szereg cosinusów:
+Cosine series:
 
 \begin{align*}
     f(x) \approx \frac{a_{0}}{2} \sum_{n=1}^{\infty} a_{n} \cos(nx) \\ \\
@@ -85,7 +90,7 @@ Letting the range go to $L$,
     a_{n} = \frac{2}{L} \int_{0}^{L} f(x) \cos(\frac{n \pi x}{L})dx
 \end{align*}
 
-Przydatne wzorki:
+Useful formulas:
 
 \begin{align*}
     \cos\alpha \cos\beta = \frac{\cos(\alpha + \beta)+\cos(\alpha - \beta)}{2} \\ \\
@@ -97,7 +102,7 @@ Przydatne wzorki:
 
 
 
-Wzorki do rozwijania w szereg Fouriera zespolony:
+Euler formulas:
 
 \begin{align*}
      e^{ix}=\cos x + i\sin x => \\\\
@@ -105,7 +110,7 @@ Wzorki do rozwijania w szereg Fouriera zespolony:
      \sin x = \frac{e^{ix} - e^{-ix}}{-i2}\\\\
 \end{align*}
 
-Zespolony szereg Fouriera:
+Complex Fourier series:
 
 \begin{align*}
      f(x) \approx \sum_{-\infty}^{\infty} c_{n}e^{inx} \\\\
@@ -121,7 +126,7 @@ For a function periodic in $[\frac{-L}{2},\frac{L}{2}]$, these become
 \end{align*}
 
 
-Żródła:\\
+Resources:\\
 \url{http://mathworld.wolfram.com/FourierSeries.html}\\
 \url{http://mathworld.wolfram.com/FourierSineSeries.html}\\
 \url{http://mathworld.wolfram.com/FourierCosineSeries.html}

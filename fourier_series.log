@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.5)  12 JUL 2017 15:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.5)  12 JUL 2017 15:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -512,57 +512,136 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+Runaway argument?
+ f(x) \approx / = \frac {a_{0}}{2}+\sum _{n=1}^{\infty } a_{n}\cos (n\ETC.
+! Paragraph ended before \align* was complete.
+<to be read again> 
+                   \par 
+l.39 
+     
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.39 
+     
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.39 
+     
+? 
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.39 
+     
+? 
+! Display math should end with $$.
+<to be read again> 
+                   \@@par 
+l.39 
+     
+? 
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.39 
+     
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.42 a_
+       {n}= \frac{1}{\pi}\int_{-\pi}^{\pi} f(x) \cos(nx) dx,\quad n=0,1,2,3,...
 
-! LaTeX Error: Command \k unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+? 
+! Misplaced \cr.
+\math@cr@@@ ->\cr 
+                  
+l.45 \end{align*}
+                 
+? 
+! Misplaced \noalign.
+\math@cr@@ ... \iffalse }\fi \math@cr@@@ \noalign 
+                                                  {\vskip #1\relax }
+l.45 \end{align*}
+                 
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.45 \end{align*}
+                 
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.45 \end{align*}
+                 
+? 
+! Extra }, or forgotten \endgroup.
+\math@cr@@ ...th@cr@@@ \noalign {\vskip #1\relax }
                                                   
-l.59 Rozwinię
-              cie w szereg sinusów:
+l.45 \end{align*}
+                 
+? 
+! Misplaced \noalign.
+\black@ #1->\noalign 
+                     {\ifdim #1>\displaywidth \dimen@ \prevdepth \nointerlin...
+l.45 \end{align*}
+                 
+? 
+! Extra }, or forgotten \endgroup.
+\endalign ->\math@cr \black@ \totwidth@ \egroup 
+                                                \ifingather@ \restorealignst...
+l.45 \end{align*}
+                 
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.45 \end{align*}
+                 
+? 
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.45 \end{align*}
+                 
 ? 
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-! LaTeX Error: Command \k unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.73 Rozwinię
-              cie w szereg cosinusów:
-? 
 [2]
 ! Undefined control sequence.
 <recently read> \url 
                      
-l.125 \url
+l.130 \url
           {http://mathworld.wolfram.com/FourierSeries.html}\\
 ? 
 ! Undefined control sequence.
 <recently read> \url 
                      
-l.126 \url
+l.131 \url
           {http://mathworld.wolfram.com/FourierSineSeries.html}\\
 ? 
 ! Undefined control sequence.
 <recently read> \url 
                      
-l.127 \url
+l.132 \url
           {http://mathworld.wolfram.com/FourierCosineSeries.html}
 ? 
 [3] [4] (./fourier_series.aux) ) 
 Here is how much of TeX's memory you used:
- 2415 strings out of 492995
- 31320 string characters out of 6132705
+ 2410 strings out of 492995
+ 31288 string characters out of 6132705
  100123 words of memory out of 5000000
- 5943 multiletter control sequences out of 15000+600000
+ 5938 multiletter control sequences out of 15000+600000
  8489 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,9n,25p,240b,486s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,9n,25p,240b,482s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/p
@@ -573,7 +652,7 @@ amsfonts/cm/cmr17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmsy8.pfb>
-Output written on fourier_series.pdf (4 pages, 93096 bytes).
+Output written on fourier_series.pdf (4 pages, 92147 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream

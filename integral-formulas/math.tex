@@ -1,0 +1,43 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{multicol}
+\usepackage{amsmath}
+
+\begin{document}
+
+\newcommand\efrac[2]{\genfrac{}{}{0pt}{}{#1}{#2}}
+
+\begin{multicols}{2}
+[
+\section{Integral formulas}
+]
+Indefinite integrals:
+\[\int \cos(\omega x)dx = \frac{1}{\omega} \sin(\omega x) + C\]
+\[\int \sin(\omega x)dx = - \frac{1}{\omega} \cos(\omega x) + C\]
+\[\int \frac{dx}{x^2 + a} = \frac{1}{\sqrt{a}} \arctan(\frac{x}{\sqrt{a}}) + C\]
+\[\int \frac{dx}{\sqrt{a - x^2}} =  \arcsin(\frac{x}{\sqrt{a}}) + C\]
+\[\int \frac{dx}{\sqrt{x^2 + b}} = \ln|x + \sqrt{x^2 + b} |+ C\]
+\[\int \frac{f'(x)}{f(x)}dx = \ln|f(x)| + C\]
+\[\int a^x dx = \frac{a^x}{\ln a} + C\]
+\[\int e^{\omega x} dx = \frac{1}{\omega} e^{\omega x} + C\]
+\[\int \tan(\omega x) dx = - \frac{1}{\omega} ln|\cos(\omega x)| + C\]
+\[\int \cot(\omega x) dx = \frac{1}{\omega} ln|\sin(\omega x)| + C\]
+\[\int \frac{dx}{\cos^2(\omega x)} = \frac{1}{\omega}  \tan(\omega x) + C\]
+\[\int \frac{dx}{\sin^2(\omega x)} = - \frac{1}{\omega}  \cot(\omega x) + C\]
+\[\int \frac{dx}{\sin x} = (\frac{Pythagorean-identity}{double-angle}) = \ln|\tan(\frac{x}{2})| + C \]
+\[\int \frac{dx}{\cos x} = |t = x + \frac{\pi}{2}| = \ln |\tan(\frac{x}{2} + \frac{\pi}{4}) | + C \]
+
+Useful trigonometric identities:
+\[\sin2 \alpha = 2\sin\alpha\cos\alpha \]
+\[ \cos2\alpha = \cos^2 \alpha - \sin^2 \alpha \]
+\\
+Definite integrals:
+\[\int_{a}^{b} f(x) dx = F(b) - F(a)\]
+\[ V = \int_{a}^{b} \pi (f(x))^2 dx\]
+\[ \int_{a}^{b} f(x) dx = - \int_{b}^{a} f(x) dx\]
+\[ l = \int_{x1}^{x2} \sqrt{(y'x)^2 + 1} dx  \]
+
+
+\end{multicols}
+\end{document}

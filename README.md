@@ -5,6 +5,6 @@ Currently following assignments are available:
 
 |    Type     | Topic           | language  |
 | ------------- |:-------------:| -----:|
-| formulas      | fourier series | english |
+| formulas      | Fourier Series | english |
 | formulas     | integrals |   english |
 | essey | Fast Fourier Transform      |   polish |
